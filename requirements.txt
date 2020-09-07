@@ -1,0 +1,7 @@
+kaggle
+tensorflow
+keras
+torch
+lightgbm
+cookiecutter
+japanize-matplotlib
