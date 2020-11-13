@@ -12,6 +12,11 @@ services:
       - "8888:8888"
     tty: true
     stdin_open: true
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 6g
     #command: jupyter-lab --ip=0.0.0.0 --allow-root --no-browser --LabApp.token=''
     command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
     #command: bash

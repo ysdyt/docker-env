@@ -2,6 +2,7 @@ kaggle
 tensorflow
 keras
 torch
-lightgbm
+lightgbm==3.0.0
 cookiecutter
 japanize-matplotlib
+pandas_profiling==2.9.0
